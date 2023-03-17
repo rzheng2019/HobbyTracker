@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D280F0E298471C900990B35 /* HobbyRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D280F0D298471C900990B35 /* HobbyRatingView.swift */; };
+		1D6FAFC62981D1CC006AAA85 /* HobbyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FAFC52981D1CC006AAA85 /* HobbyHomeView.swift */; };
+		1D6FAFC8298209E5006AAA85 /* HobbyAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FAFC7298209E5006AAA85 /* HobbyAddView.swift */; };
+		1D71404929957E4C0083047B /* HobbySplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71404829957E4C0083047B /* HobbySplashScreen.swift */; };
+		1D8426A4298D7CE200948540 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1D8426A3298D7CE200948540 /* FirebaseAuth */; };
+		1D8426A6298D7CE200948540 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1D8426A5298D7CE200948540 /* FirebaseFirestore */; };
+		1D8426A8298D7EE600948540 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D8426A7298D7EE500948540 /* GoogleService-Info.plist */; };
+		1D91E76D29831D8600FD3724 /* HobbyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91E76C29831D8600FD3724 /* HobbyGridView.swift */; };
+		1D9CEB972988689300DEAC20 /* hobbyList.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D9CEB962988689300DEAC20 /* hobbyList.json */; };
+		1DA9932B2980823E0081BD7E /* HobbyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9932A2980823E0081BD7E /* HobbyDetailView.swift */; };
+		1DA9932D298082420081BD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9932C298082420081BD7E /* Assets.xcassets */; };
+		1DA99330298082420081BD7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9932F298082420081BD7E /* Preview Assets.xcassets */; };
+		1DA9933A298082EB0081BD7E /* HobbyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA99339298082EB0081BD7E /* HobbyModel.swift */; };
+		1DA9933E298087F90081BD7E /* HobbyIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9933D298087F90081BD7E /* HobbyIconView.swift */; };
+		1DB1FDE62995943400BC1065 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1FDE52995943400BC1065 /* AppIconView.swift */; };
+		1DC132F029C50AE4001A2C48 /* HobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC132EF29C50AE4001A2C48 /* HobbyViewModel.swift */; };
+		1DC132F229C50AF5001A2C48 /* HobbyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC132F129C50AF5001A2C48 /* HobbyTrackerApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D280F0D298471C900990B35 /* HobbyRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyRatingView.swift; sourceTree = "<group>"; };
+		1D6FAFC52981D1CC006AAA85 /* HobbyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyHomeView.swift; sourceTree = "<group>"; };
+		1D6FAFC7298209E5006AAA85 /* HobbyAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyAddView.swift; sourceTree = "<group>"; };
+		1D71404829957E4C0083047B /* HobbySplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbySplashScreen.swift; sourceTree = "<group>"; };
+		1D8426A7298D7EE500948540 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D91E76C29831D8600FD3724 /* HobbyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyGridView.swift; sourceTree = "<group>"; };
+		1D9CEB962988689300DEAC20 /* hobbyList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hobbyList.json; sourceTree = "<group>"; };
+		1DA993252980823E0081BD7E /* HobbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA9932A2980823E0081BD7E /* HobbyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyDetailView.swift; sourceTree = "<group>"; };
+		1DA9932C298082420081BD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DA9932F298082420081BD7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DA99339298082EB0081BD7E /* HobbyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyModel.swift; sourceTree = "<group>"; };
+		1DA9933D298087F90081BD7E /* HobbyIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyIconView.swift; sourceTree = "<group>"; };
+		1DB1FDE52995943400BC1065 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		1DC132EF29C50AE4001A2C48 /* HobbyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HobbyViewModel.swift; path = "View Models/HobbyViewModel.swift"; sourceTree = "<group>"; };
+		1DC132F129C50AF5001A2C48 /* HobbyTrackerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HobbyTrackerApp.swift; path = App/HobbyTrackerApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA993222980823E0081BD7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8426A4298D7CE200948540 /* FirebaseAuth in Frameworks */,
+				1D8426A6298D7CE200948540 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA9931C2980823E0081BD7E = {
+			isa = PBXGroup;
+			children = (
+				1DA993272980823E0081BD7E /* HobbyTracker */,
+				1DA993262980823E0081BD7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DA993262980823E0081BD7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA993252980823E0081BD7E /* HobbyTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DA993272980823E0081BD7E /* HobbyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				1DC132F129C50AF5001A2C48 /* HobbyTrackerApp.swift */,
+				1DA99338298082B00081BD7E /* View */,
+				1DA99337298082A80081BD7E /* ViewModel */,
+				1DA99336298082A00081BD7E /* Model */,
+				1DA9932C298082420081BD7E /* Assets.xcassets */,
+				1D8426A7298D7EE500948540 /* GoogleService-Info.plist */,
+				1D9CEB962988689300DEAC20 /* hobbyList.json */,
+				1DA9932E298082420081BD7E /* Preview Content */,
+			);
+			path = HobbyTracker;
+			sourceTree = "<group>";
+		};
+		1DA9932E298082420081BD7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DA9932F298082420081BD7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DA99336298082A00081BD7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DA99339298082EB0081BD7E /* HobbyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DA99337298082A80081BD7E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1DC132EF29C50AE4001A2C48 /* HobbyViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		1DA99338298082B00081BD7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D71404829957E4C0083047B /* HobbySplashScreen.swift */,
+				1DA9933D298087F90081BD7E /* HobbyIconView.swift */,
+				1D6FAFC52981D1CC006AAA85 /* HobbyHomeView.swift */,
+				1D6FAFC7298209E5006AAA85 /* HobbyAddView.swift */,
+				1D91E76C29831D8600FD3724 /* HobbyGridView.swift */,
+				1DA9932A2980823E0081BD7E /* HobbyDetailView.swift */,
+				1D280F0D298471C900990B35 /* HobbyRatingView.swift */,
+				1DB1FDE52995943400BC1065 /* AppIconView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DA993242980823E0081BD7E /* HobbyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA99333298082420081BD7E /* Build configuration list for PBXNativeTarget "HobbyTracker" */;
+			buildPhases = (
+				1DA993212980823E0081BD7E /* Sources */,
+				1DA993222980823E0081BD7E /* Frameworks */,
+				1DA993232980823E0081BD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HobbyTracker;
+			packageProductDependencies = (
+				1D8426A3298D7CE200948540 /* FirebaseAuth */,
+				1D8426A5298D7CE200948540 /* FirebaseFirestore */,
+			);
+			productName = HobbyGuru;
+			productReference = 1DA993252980823E0081BD7E /* HobbyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DA9931D2980823E0081BD7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1DA993242980823E0081BD7E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1DA993202980823E0081BD7E /* Build configuration list for PBXProject "HobbyTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DA9931C2980823E0081BD7E;
+			packageReferences = (
+				1D8426A2298D7CE200948540 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 1DA993262980823E0081BD7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DA993242980823E0081BD7E /* HobbyTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DA993232980823E0081BD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9CEB972988689300DEAC20 /* hobbyList.json in Resources */,
+				1D8426A8298D7EE600948540 /* GoogleService-Info.plist in Resources */,
+				1DA99330298082420081BD7E /* Preview Assets.xcassets in Resources */,
+				1DA9932D298082420081BD7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA993212980823E0081BD7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA9932B2980823E0081BD7E /* HobbyDetailView.swift in Sources */,
+				1DA9933A298082EB0081BD7E /* HobbyModel.swift in Sources */,
+				1D280F0E298471C900990B35 /* HobbyRatingView.swift in Sources */,
+				1D91E76D29831D8600FD3724 /* HobbyGridView.swift in Sources */,
+				1DC132F229C50AF5001A2C48 /* HobbyTrackerApp.swift in Sources */,
+				1D6FAFC62981D1CC006AAA85 /* HobbyHomeView.swift in Sources */,
+				1DA9933E298087F90081BD7E /* HobbyIconView.swift in Sources */,
+				1D6FAFC8298209E5006AAA85 /* HobbyAddView.swift in Sources */,
+				1D71404929957E4C0083047B /* HobbySplashScreen.swift in Sources */,
+				1DB1FDE62995943400BC1065 /* AppIconView.swift in Sources */,
+				1DC132F029C50AE4001A2C48 /* HobbyViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DA99331298082420081BD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DA99332298082420081BD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DA99334298082420081BD7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.HobbyGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DA99335298082420081BD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.HobbyGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA993202980823E0081BD7E /* Build configuration list for PBXProject "HobbyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA99331298082420081BD7E /* Debug */,
+				1DA99332298082420081BD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA99333298082420081BD7E /* Build configuration list for PBXNativeTarget "HobbyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA99334298082420081BD7E /* Debug */,
+				1DA99335298082420081BD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D8426A2298D7CE200948540 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D8426A3298D7CE200948540 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D8426A2298D7CE200948540 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1D8426A5298D7CE200948540 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D8426A2298D7CE200948540 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1DA9931D2980823E0081BD7E /* Project object */;
+}

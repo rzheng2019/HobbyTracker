@@ -1,0 +1,493 @@
+[
+        {
+            "id" : 1,
+            "name" : "American Football",
+            "category" : "Sports",
+            "imageSymbol" : "figure.american.football"
+        },
+        {
+            "id" : 2,
+            "name" : "Archery",
+            "category" : "Sports",
+            "imageSymbol" : "figure.archery"
+        },
+        {
+            "id" : 3,
+            "name" : "Australian Football",
+            "category" : "Sports",
+            "imageSymbol" : "figure.australian.football"
+        },
+        {
+            "id" : 4,
+            "name" : "Badminton",
+            "category" : "Sports",
+            "imageSymbol" : "figure.badminton"
+        },
+        {
+            "id" : 5,
+            "name" : "Barre",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.barre"
+        },
+        {
+            "id" : 6,
+            "name" : "Baseball",
+            "category" : "Sports",
+            "imageSymbol" : "baseball"
+        },
+        {
+            "id" : 7,
+            "name" : "Baseball",
+            "category" : "Sports",
+            "imageSymbol" : "figure.baseball"
+        },
+        {
+            "id" : 8,
+            "name" : "Baseball",
+            "category" : "Sports",
+            "imageSymbol" : "baseball.fill"
+        },
+        {
+            "id" : 9,
+            "name" : "Basketball",
+            "category" : "Sports",
+            "imageSymbol" : "figure.basketball"
+        },
+        {
+            "id" : 10,
+            "name" : "Basketball",
+            "category" : "Sports",
+            "imageSymbol" : "basketball"
+        },
+        {
+            "id" : 11,
+            "name" : "Basketball",
+            "category" : "Sports",
+            "imageSymbol" : "basketball.fill"
+        },
+        {
+            "id" : 12,
+            "name" : "Cycling",
+            "category" : "Sports",
+            "imageSymbol" : "bicycle"
+        },
+        {
+            "id" : 13,
+            "name" : "Bowling",
+            "category" : "Sports",
+            "imageSymbol" : "figure.bowling"
+        },
+        {
+            "id" : 14,
+            "name" : "Boxing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.boxing"
+        },
+        {
+            "id" : 15,
+            "name" : "Climbing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.climbing"
+        },
+        {
+            "id" : 16,
+            "name" : "Core Training",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.core.training"
+        },{
+            "id" : 17,
+            "name" : "Cricket",
+            "category" : "Sports",
+            "imageSymbol" : "figure.cricket"
+        },
+        {
+            "id" : 18,
+            "name" : "Cross Training",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.cross.training"
+        },
+        {
+            "id" : 19,
+            "name" : "Curling",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.curling"
+        },
+        {
+            "id" : 20,
+            "name" : "Dance",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.dance"
+        },
+        {
+            "id" : 21,
+            "name" : "Disc",
+            "category" : "Sports",
+            "imageSymbol" : "figure.disc.sports"
+        },
+        {
+            "id" : 22,
+            "name" : "Working Out",
+            "category" : "Fitness",
+            "imageSymbol" : "dumbbell.fill"
+        },
+        {
+            "id" : 23,
+            "name" : "Equestrian",
+            "category" : "Sports",
+            "imageSymbol" : "figure.equestrian.sports"
+        },
+        {
+            "id" : 24,
+            "name" : "Fencing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.fencing"
+        },
+        {
+            "id" : 25,
+            "name" : "Flexibility",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.flexibility"
+        },
+        {
+            "id" : 26,
+            "name" : "Fishing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.fishing"
+        },
+        {
+            "id" : 27,
+            "name" : "Football",
+            "category" : "Sports",
+            "imageSymbol" : "football"
+        },
+        {
+            "id" : 28,
+            "name" : "Football",
+            "category" : "Sports",
+            "imageSymbol" : "football.fill"
+        },
+        {
+            "id" : 29,
+            "name" : "Gaming",
+            "category" : "Games",
+            "imageSymbol" : "gamecontroller"
+        },
+        {
+            "id" : 30,
+            "name" : "Gaming",
+            "category" : "Games",
+            "imageSymbol" : "gamecontroller.fill"
+        },
+        {
+            "id" : 31,
+            "name" : "Golf",
+            "category" : "Sports",
+            "imageSymbol" : "figure.golf"
+        },
+        {
+            "id" : 32,
+            "name" : "Gymnastics",
+            "category" : "Sports",
+            "imageSymbol" : "figure.gymnastics"
+        },
+        {
+            "id" : 33,
+            "name" : "Handball",
+            "category" : "Sports",
+            "imageSymbol" : "figure.handball"
+        },
+        {
+            "id" : 34,
+            "name" : "Hiking",
+            "category" : "Sports",
+            "imageSymbol" : "figure.hiking"
+        },
+        {
+            "id" : 35,
+            "name" : "Hockey",
+            "category" : "Sports",
+            "imageSymbol" : "figure.hockey"
+        },
+        {
+            "id" : 36,
+            "name" : "Puck",
+            "category" : "Sports",
+            "imageSymbol" : "hockey.puck"
+        },
+        {
+            "id" : 37,
+            "name" : "Puck",
+            "category" : "Sports",
+            "imageSymbol" : "hockey.puck.fill"
+        },
+        {
+            "id" : 38,
+            "name" : "Hunting",
+            "category" : "Sports",
+            "imageSymbol" : "figure.hunting"
+        },
+        {
+            "id" : 39,
+            "name" : "Indoor Cycling",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.indoor.cycle"
+        },
+        {
+            "id" : 40,
+            "name" : "Jump Roping",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.jumprope"
+        },
+        {
+            "id" : 41,
+            "name" : "Kickboxing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.kickboxing"
+        },
+        {
+            "id" : 42,
+            "name" : "Lacrosse",
+            "category" : "Sports",
+            "imageSymbol" : "figure.lacrosse"
+        },
+        {
+            "id" : 43,
+            "name" : "Martial Arts",
+            "category" : "Sports",
+            "imageSymbol" : "figure.martial.arts"
+        },
+        {
+            "id" : 44,
+            "name" : "Mind and Body",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.mind.and.body"
+        },
+        {
+            "id" : 45,
+            "name" : "Mixed Cardio",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.mixed.cardio"
+        },
+        {
+            "id" : 46,
+            "name" : "Outdoor Swimming",
+            "category" : "Sports",
+            "imageSymbol" : "figure.open.water.swim"
+        },
+        {
+            "id" : 47,
+            "name" : "Cycling",
+            "category" : "Sports",
+            "imageSymbol" : "figure.outdoor.cycle"
+        },
+        {
+            "id" : 48,
+            "name" : "Pickleball",
+            "category" : "Sports",
+            "imageSymbol" : "figure.pickleball"
+        },
+        {
+            "id" : 49,
+            "name" : "Pilates",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.pilates"
+        },
+        {
+            "id" : 51,
+            "name" : "Pool Swimming",
+            "category" : "Sports",
+            "imageSymbol" : "figure.pool.swim"
+        },
+        {
+            "id" : 52,
+            "name" : "Racquetball",
+            "category" : "Sports",
+            "imageSymbol" : "figure.racquetball"
+        },
+        {
+            "id" : 53,
+            "name" : "Rolling",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.rolling"
+        },
+        {
+            "id" : 54,
+            "name" : "Rowing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.rower"
+        },
+        {
+            "id" : 55,
+            "name" : "Rugby",
+            "category" : "Sports",
+            "imageSymbol" : "figure.rugby"
+        },
+        {
+            "id" : 56,
+            "name" : "Running",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.run"
+        },
+        {
+            "id" : 57,
+            "name" : "Sailing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.sailing"
+        },
+        {
+            "id" : 58,
+            "name" : "Cross Country Skiing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.skiing.crosscountry"
+        },
+        {
+            "id" : 59,
+            "name" : "Downhill Skiing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.skiing.downhill"
+        },
+        {
+            "id" : 60,
+            "name" : "Snowboarding",
+            "category" : "Sports",
+            "imageSymbol" : "figure.snowboarding"
+        },
+        {
+            "id" : 61,
+            "name" : "Soccer",
+            "category" : "Sports",
+            "imageSymbol" : "figure.soccer"
+        },
+        {
+            "id" : 62,
+            "name" : "Soccer",
+            "category" : "Sports",
+            "imageSymbol" : "soccerball"
+        },
+        {
+            "id" : 63,
+            "name" : "Social Dancing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.socialdance"
+        },
+        {
+            "id" : 64,
+            "name" : "Softball",
+            "category" : "Sports",
+            "imageSymbol" : "figure.softball"
+        },
+        {
+            "id" : 65,
+            "name" : "Squash",
+            "category" : "Sports",
+            "imageSymbol" : "figure.squash"
+        },
+        {
+            "id" : 66,
+            "name" : "Stairs",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.stairs"
+        },
+        {
+            "id" : 67,
+            "name" : "Strength Training",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.strengthtraining.traditional"
+        },
+        {
+            "id" : 68,
+            "name" : "Surfing",
+            "category" : "Sports",
+            "imageSymbol" : "figure.surfing"
+        },
+        {
+            "id" : 69,
+            "name" : "Table Tennis",
+            "category" : "Sports",
+            "imageSymbol" : "figure.table.tennis"
+        },
+        {
+            "id" : 70,
+            "name" : "Taichi",
+            "category" : "Sports",
+            "imageSymbol" : "figure.taichi"
+        },
+        {
+            "id" : 71,
+            "name" : "Tennis",
+            "category" : "Sports",
+            "imageSymbol" : "figure.tennis"
+        },
+        {
+            "id" : 72,
+            "name" : "Tennis",
+            "category" : "Sports",
+            "imageSymbol" : "tennis.racket"
+        },
+        {
+            "id" : 73,
+            "name" : "Tennis",
+            "category" : "Sports",
+            "imageSymbol" : "tennisball"
+        },
+        {
+            "id" : 74,
+            "name" : "Track and Field",
+            "category" : "Sports",
+            "imageSymbol" : "figure.track.and.field"
+        },
+        {
+            "id" : 75,
+            "name" : "Volleyball",
+            "category" : "Sports",
+            "imageSymbol" : "figure.volleyball"
+        },
+        {
+            "id" : 76,
+            "name" : "Volleyball",
+            "category" : "Sports",
+            "imageSymbol" : "volleyball"
+        },
+        {
+            "id" : 77,
+            "name" : "Volleyball",
+            "category" : "Sports",
+            "imageSymbol" : "volleyball.fill"
+        },
+        {
+            "id" : 78,
+            "name" : "Walking",
+            "category" : "Sports",
+            "imageSymbol" : "figure.walk"
+        },
+        {
+            "id" : 79,
+            "name" : "Water Exercise",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.water.fitness"
+        },
+        {
+            "id" : 80,
+            "name" : "Water Polo",
+            "category" : "Sports",
+            "imageSymbol" : "figure.waterpolo"
+        },
+        {
+            "id" : 81,
+            "name" : "Wrestling",
+            "category" : "Sports",
+            "imageSymbol" : "figure.wrestling"
+        },
+        {
+            "id" : 82,
+            "name" : "Yoga",
+            "category" : "Fitness",
+            "imageSymbol" : "figure.yoga"
+        }
+]
+
+
+
+
+
+
