@@ -1,6 +1,6 @@
 //
 //  HobbyModel.swift
-//  HobbyGuru
+//  HobbyTracker
 //
 //  Created by Ricky Zheng on 1/24/23.ow
 //
