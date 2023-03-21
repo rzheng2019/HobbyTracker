@@ -120,7 +120,7 @@ class HobbyViewModel: Identifiable, ObservableObject {
                                                                           "rating"          : hobby.rating ?? [false,
                                                                                                                false,
                                                                                                                false,
-                                                                                                               false,                                        false],
+                                                                                                               false,                                    false],
                                                                           "category"        : hobby.category,
                                                                           "imageSymbol"     : hobby.imageSymbol]) { err in
             if let err = err {
@@ -130,37 +130,6 @@ class HobbyViewModel: Identifiable, ObservableObject {
                 print("Document successfully updated")
             }
         }
-//        let hobbyRef = db.collection("UserHobbyList").document("\(hobby.name)")
-//
-//        hobbyRef.getDocument { (document, err) in
-//            guard err == nil else {
-//                print("error", err ?? "")
-//                return
-//            }
-//            if let document = document, document.exists {
-//                let data = document.data()
-//                if let data = data {
-//                    print("data", data)
-//                    // Append newly created document from Firebase to existing userList
-//
-//                    let dbID            = data["id"] as! Int
-//                    let dbName          = data["name"] as! String
-//                    let dbDescription   = data["description"] as! String
-//                    let dbFeedback      = data["feedback"] as! String
-//                    let dbRating        = data["rating"] as! [Bool]
-//                    let dbCategory      = data["category"] as! String
-//                    let dbImageSymbol   = data["imageSymbol"] as! String
-//
-//                    self.userList.append(Hobby(id: dbID,
-//                                               name: dbName,
-//                                               description: dbDescription,
-//                                               feedback: dbFeedback,
-//                                               rating: dbRating,
-//                                               category: dbCategory,
-//                                               imageSymbol: dbImageSymbol))
-//                }
-//            }
-//        }
     }
     
     func saveInformation(index : Int, rating : [Bool]?, description : String, feedback : String) {

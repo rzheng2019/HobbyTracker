@@ -36,23 +36,23 @@ struct HobbyDetailView: View {
         ScrollView {
             ZStack {
                 VStack {
-                    iconView(hobby: hobby)
+                    IconView(hobby: hobby)
                     
-                    singleTextHeaderView(headerTitle: "Rating")
+                    SingleTextHeaderView(headerTitle: "Rating")
                     
                     HobbyRatingView(hobby: $hobby, starColor: .white)
                     
-                    singleTextHeaderView(headerTitle: "Category")
+                    SingleTextHeaderView(headerTitle: "Category")
                     
-                    categoryView(hobby: hobby)
+                    CategoryView(hobby: hobby)
                     
-                    textBoxView(title: "Description", textFieldString: $descriptionField)
+                    TextBoxView(title: "Description", textFieldString: $descriptionField)
                     
-                    textBoxView(title: "Feedback", textFieldString: $feedbackField)
+                    TextBoxView(title: "Feedback", textFieldString: $feedbackField)
                     
-                    saveButton(hobby : hobby, description: descriptionField, feedback: feedbackField)
+                    SaveButton(hobby : hobby, description: descriptionField, feedback: feedbackField)
                     
-                    deleteButton(hobby : hobby)
+                    DeleteButton(hobby : hobby)
                 }
             }
         }
@@ -63,7 +63,7 @@ struct HobbyDetailView: View {
     }
 }
 
-struct iconView : View {
+struct IconView : View {
     let hobby : Hobby
     
     var body : some View {
@@ -72,7 +72,7 @@ struct iconView : View {
     }
 }
 
-struct categoryView : View {
+struct CategoryView : View {
     let hobby : Hobby
     
     var body : some View {
@@ -92,7 +92,7 @@ struct categoryView : View {
     }
 }
 
-struct singleTextHeaderView: View  {
+struct SingleTextHeaderView: View  {
     var headerTitle: String = "Placeholder Title"
     
     var body: some View {
@@ -116,7 +116,7 @@ struct singleTextHeaderView: View  {
     }
 }
 
-struct textBoxView: View {
+struct TextBoxView: View {
     @EnvironmentObject var hobbyVM : HobbyViewModel
     
     var title : String = "Title"
@@ -166,8 +166,7 @@ struct textBoxView: View {
     }
 }
 
-struct saveButton : View {
-//    @Environment(\.presentationMode) var presentationMode
+struct SaveButton : View {
     @EnvironmentObject var hobbyVM : HobbyViewModel
     
     let hobby : Hobby
@@ -180,7 +179,6 @@ struct saveButton : View {
     
     var body : some View {
         Button(action: {
-            // Save Hobby
             showingSaveAlert = true
         }, label: {
             ZStack {
@@ -200,25 +198,22 @@ struct saveButton : View {
             Alert(title: Text("Are you sure you want to save hobby?"),
                   primaryButton: .destructive(Text("Cancel")),
                   secondaryButton: .default(Text("Save")) {
-//                if let hobbyID = hobby.id {
                 if let index = hobbyVM.searchHobbyID(id: hobby.id) {
                     hobbyVM.saveInformation(index: index,
                                             rating: hobby.rating,
                                             description: description,
                                             feedback: feedback)
                 }
-//                }
             })
         }
     }
 }
 
-struct deleteButton : View {
+struct DeleteButton : View {
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var hobbyVM : HobbyViewModel
     
     @State var hobby : Hobby = Hobby()
-    //    @State private var showingSaveAlert = false
     @State private var showingDeleteAlert = false
     
     let deleteButtonColor : UIColor = #colorLiteral(red: 0.9328305125, green: 0, blue: 0, alpha: 1)

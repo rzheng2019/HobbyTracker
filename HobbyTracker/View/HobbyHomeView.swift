@@ -43,7 +43,7 @@ struct HobbyHomeView: View {
                             .padding(.bottom, -30)
                         
                         HStack (alignment: .center, spacing: 10) {
-                            ForEach(0..<2) { num in // Replace with HobbyIcons
+                            ForEach(0..<2) { num in
                                 ZStack {
                                     RoundedRectangle(cornerRadius: 20)
                                         .foregroundColor(Color(backgroundIconColor))
@@ -72,7 +72,7 @@ struct HobbyHomeView: View {
                         .padding(.trailing, 10)
                         
                         HStack (alignment: .center, spacing: 10) {
-                            ForEach(0..<2) { num in // Replace with HobbyIcons
+                            ForEach(0..<2) { num in
                                 ZStack {
                                     RoundedRectangle(cornerRadius: 20)
                                         .foregroundColor(Color(backgroundIconColor))
@@ -108,8 +108,6 @@ struct HobbyHomeView: View {
                             .padding(.bottom, 50)
                             .foregroundColor(Color.white)
                         
-//                        Spacer()
-                        
                         NavigationLink(destination: HobbyAddView(),
                                        label: {
                             ZStack {
@@ -127,24 +125,6 @@ struct HobbyHomeView: View {
                         })
                        
                         Spacer()
-//                        NavigationLink(destination: AddHobbyView(),
-//                                       label: {
-//                            ZStack {
-//                                RoundedRectangle(cornerRadius: 50)
-//                                    .frame(width: 250, height: 50)
-//                                    .foregroundColor(Color(backgroundIconColor))
-//                                    .overlay(
-//                                        RoundedRectangle(cornerRadius: 50)
-//                                            .strokeBorder(.white, lineWidth: 4))
-//
-//                                Text("Sign Up")
-//                                    .font(.system(size: 30))
-//                                    .bold()
-//                                    .fontDesign(Font.Design.serif)
-//                                    .foregroundColor(Color.white)
-//                            }
-//                        })
-//                        .padding(.bottom, 80)
                     }
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)

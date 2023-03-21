@@ -34,13 +34,11 @@ struct HobbyGridView: View {
             LazyVGrid(columns: adaptiveColumns, spacing: 20) {
                 // Need index of list too for saving purposes
                 ForEach(hobbyVM.userList, id: \.id) { hobby in
-                    // FUTURE TASK: Fix issue where multiple views are using the same hobby.id
                     NavigationLink {
                         HobbyDetailView(hobby: hobby)
                     } label: {
                         HobbyIconView(hobby: hobby)
                     }
-//                    HobbyIconView(hobby: hobby)
                 }
             }
             .padding(.bottom, 35)
