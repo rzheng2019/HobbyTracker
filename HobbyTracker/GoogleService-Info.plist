@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>925173352862-bp2f4ca9ldbnv9lm1j6ev6721l1js5fk.apps.googleusercontent.com</string>
+	<string>653068946098-a8920g8c0d8ih7omqflh9j2iv9i1fnmd.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.925173352862-bp2f4ca9ldbnv9lm1j6ev6721l1js5fk</string>
+	<string>com.googleusercontent.apps.653068946098-a8920g8c0d8ih7omqflh9j2iv9i1fnmd</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCaqj60G7YuBohEYJiAD5xd6MYw9pMP_ds</string>
+	<string>AIzaSyDdCm2Gg5azJZnD3uY-ys6F_AGwYcXxMvc</string>
 	<key>GCM_SENDER_ID</key>
-	<string>925173352862</string>
+	<string>653068946098</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>cpp.HobbyGuru</string>
+	<string>HobbyTracker</string>
 	<key>PROJECT_ID</key>
-	<string>hobbyguru-64222</string>
+	<string>hobbytrackerfinal</string>
 	<key>STORAGE_BUCKET</key>
-	<string>hobbyguru-64222.appspot.com</string>
+	<string>hobbytrackerfinal.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:925173352862:ios:ca3153ad2ed75ae12d6e8f</string>
+	<string>1:653068946098:ios:9ca1085670cc45b74857ab</string>
 </dict>
 </plist>

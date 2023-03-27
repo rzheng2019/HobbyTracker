@@ -13,7 +13,6 @@
 		1D71404929957E4C0083047B /* HobbySplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D71404829957E4C0083047B /* HobbySplashScreen.swift */; };
 		1D8426A4298D7CE200948540 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1D8426A3298D7CE200948540 /* FirebaseAuth */; };
 		1D8426A6298D7CE200948540 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1D8426A5298D7CE200948540 /* FirebaseFirestore */; };
-		1D8426A8298D7EE600948540 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D8426A7298D7EE500948540 /* GoogleService-Info.plist */; };
 		1D91E76D29831D8600FD3724 /* HobbyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91E76C29831D8600FD3724 /* HobbyGridView.swift */; };
 		1D9CEB972988689300DEAC20 /* hobbyList.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D9CEB962988689300DEAC20 /* hobbyList.json */; };
 		1DA9932B2980823E0081BD7E /* HobbyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9932A2980823E0081BD7E /* HobbyDetailView.swift */; };
@@ -24,6 +23,7 @@
 		1DB1FDE62995943400BC1065 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1FDE52995943400BC1065 /* AppIconView.swift */; };
 		1DC132F029C50AE4001A2C48 /* HobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC132EF29C50AE4001A2C48 /* HobbyViewModel.swift */; };
 		1DC132F229C50AF5001A2C48 /* HobbyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC132F129C50AF5001A2C48 /* HobbyTrackerApp.swift */; };
+		1DD5826729D226B6004B6196 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DD5826629D226B6004B6196 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,6 @@
 		1D6FAFC52981D1CC006AAA85 /* HobbyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyHomeView.swift; sourceTree = "<group>"; };
 		1D6FAFC7298209E5006AAA85 /* HobbyAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyAddView.swift; sourceTree = "<group>"; };
 		1D71404829957E4C0083047B /* HobbySplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbySplashScreen.swift; sourceTree = "<group>"; };
-		1D8426A7298D7EE500948540 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1D91E76C29831D8600FD3724 /* HobbyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyGridView.swift; sourceTree = "<group>"; };
 		1D9CEB962988689300DEAC20 /* hobbyList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hobbyList.json; sourceTree = "<group>"; };
 		1DA993252980823E0081BD7E /* HobbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +42,7 @@
 		1DB1FDE52995943400BC1065 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
 		1DC132EF29C50AE4001A2C48 /* HobbyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HobbyViewModel.swift; path = "View Models/HobbyViewModel.swift"; sourceTree = "<group>"; };
 		1DC132F129C50AF5001A2C48 /* HobbyTrackerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HobbyTrackerApp.swift; path = App/HobbyTrackerApp.swift; sourceTree = "<group>"; };
+		1DD5826629D226B6004B6196 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 				1DA99337298082A80081BD7E /* ViewModel */,
 				1DA99336298082A00081BD7E /* Model */,
 				1DA9932C298082420081BD7E /* Assets.xcassets */,
-				1D8426A7298D7EE500948540 /* GoogleService-Info.plist */,
+				1DD5826629D226B6004B6196 /* GoogleService-Info.plist */,
 				1D9CEB962988689300DEAC20 /* hobbyList.json */,
 				1DA9932E298082420081BD7E /* Preview Content */,
 			);
@@ -194,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D9CEB972988689300DEAC20 /* hobbyList.json in Resources */,
-				1D8426A8298D7EE600948540 /* GoogleService-Info.plist in Resources */,
+				1DD5826729D226B6004B6196 /* GoogleService-Info.plist in Resources */,
 				1DA99330298082420081BD7E /* Preview Assets.xcassets in Resources */,
 				1DA9932D298082420081BD7E /* Assets.xcassets in Resources */,
 			);
