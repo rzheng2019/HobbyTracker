@@ -1,5 +1,5 @@
 //
-//  HobbyGuruApp.swift
+//  HobbyTrackerApp.swift
 //  HobbyTracker
 //
 //  Created by Ricky Zheng on 1/24/23.
