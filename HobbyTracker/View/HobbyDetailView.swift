@@ -148,6 +148,7 @@ struct TextBoxView: View {
                         .scrollContentBackground(.hidden)
                         .disabled(true)
                 }
+                
                 TextEditor(text: $textFieldString)
                     .foregroundColor(Color.white)
                     .font(.custom("Avenir", size: 20))

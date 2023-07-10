@@ -24,18 +24,17 @@ struct HobbyIconView: View {
                 
                 VStack (alignment: .center) {
                     if let imageString = hobby.imageSymbol {
-                        if let image = Image(systemName: imageString) {
-                            image
-                                .resizable()
-                                .frame(width: 80, height: 90)
-                                .foregroundColor(.white)
-                        }
-                        else {
-                            Image(systemName: "photo")
-                                .resizable()
-                                .frame(width: 80, height: 80)
-                                .foregroundColor(.white)
-                        }
+                        Image(systemName: imageString)
+                            .resizable()
+                            .frame(width: 80, height: 90)
+                            .foregroundColor(.white)
+                        
+                    }
+                    else {
+                        Image(systemName: "photo")
+                            .resizable()
+                            .frame(width: 80, height: 80)
+                            .foregroundColor(.white)
                     }
                     HStack (alignment: .center) {
                         Text(hobby.name)

@@ -13,8 +13,8 @@ struct Hobby : Identifiable, Codable, Hashable {
     var description : String?
     var feedback    : String?
     var rating      : [Bool]?   = [false, false, false, false, false]
-    var category    : String
-    var imageSymbol : String
+    var category    : String?
+    var imageSymbol : String?
     var isSelected  : Bool?     = nil
     
     init(id: Int                = 0,

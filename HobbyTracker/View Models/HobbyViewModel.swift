@@ -120,9 +120,10 @@ class HobbyViewModel: Identifiable, ObservableObject {
                                                                           "rating"          : hobby.rating ?? [false,
                                                                                                                false,
                                                                                                                false,
-                                                                                                               false,                                    false],
-                                                                          "category"        : hobby.category,
-                                                                          "imageSymbol"     : hobby.imageSymbol]) { err in
+                                                                                                               false,
+                                                                                                               false],
+                                                                          "category"        : hobby.category ?? "",
+                                                                          "imageSymbol"     : hobby.imageSymbol ?? ""]) { err in
             if let err = err {
                 print("Error updating document: \(err)")
             }
