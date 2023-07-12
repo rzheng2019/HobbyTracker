@@ -22,7 +22,7 @@ Each hobby can be rated with a 5 star system and be provided with descriptions a
 
 ## Structure
 
-- "Models": Files that cointain the models for what a hobby consists of.
+- "Models": Files that contain the models for what a hobby consists of.
 - "ViewModels": Files that contain the view models that provide data and functionality to be used by views.
 - "Views": Files that use view models to display user interface with data.
 
