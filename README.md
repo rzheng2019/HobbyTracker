@@ -5,7 +5,7 @@
 Hobby Tracker is a native iOS application that is designed to log user hobbies done throughout life. 
 Each hobby can be rated with a 5 star system and be provided with descriptions and feedback. 
 
-![]()
+![](https://github.com/rzheng2019/HobbyTracker/blob/main/HobbyTrackerGIF.gif)
 
 ## Getting Started
 
